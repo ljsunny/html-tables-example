@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,258 @@
     <link rel="stylesheet" href="./main.css" />
     <title>html-tables-example</title>
 </head>
+
 <body>
+    <div class="table-wrapper">
+        <h2>Semester Ⅱ Schedule </h2>
+        <div class="table-container">
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th colspan="2">Time</th>
+                    <th>Room</th>
+                    <th>Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-header" rowspan="2">English Ⅱ</td>
+                    <td>9:00</td>
+                    <td>11:00</td>
+                    <td>L2201</td>
+                    <td>Monday</td>
+                </tr>
+                <tr>
+                    <td>9:00</td>
+                    <td>11:00</td>
+                    <td>L2201</td>
+                    <td>Wednesday</td>
+                </tr>
+                <tr>
+                    <td class="col-header">Geography</td>
+                    <td>11:00</td>
+                    <td>12:45</td>
+                    <td>G107</td>
+                    <td>Tuesday</td>
+                </tr>
+                <tr>
+                    <td class="col-header">Biology</td>
+                    <td>9:00</td>
+                    <td>11:00</td>
+                    <td>B302</td>
+                    <td>Friday</td>
+                </tr>   
+                </tbody>
+                <caption>Fig: Semester 2 Course Schedule</caption>
+        </table>
+    </div>
     
+    </div>
+    <div class="table-wrapper2">
+        <h2>Product Comparison Chart</h2>
+        <table id="table2">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product A</th>
+                    <th>Product B</th>
+                    <th>Product C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-header">Durability</td>
+                    <td>10/10</td>
+                    <td>5/10</td>
+                    <td>7/10</td>
+                </tr>
+                <tr>
+                    <td class="col-header">Design</td>
+                    <td>3/10</td>
+                    <td>8/10</td>
+                    <td>7/10</td>
+                </tr>
+                <tr>
+                    <td class="col-header">Usability</td>
+                    <td>7/10</td>
+                    <td>10/10</td>
+                    <td>5/10</td>
+                </tr>
+                <tr>
+                    <td class="col-header">Price</td>
+                    <td>9/10</td>
+                    <td>7/10</td>
+                    <td>3/10</td>
+                </tr>
+                <caption>Fig: Comparison of the features between the products</caption>
+            </tbody>
+        </table>
+    </div>
+    <div class="table-wrapper">
+        <h2>How old is your cat?</h2>
+        <table id="table3">
+            <thead>
+                <tr>
+                    <th>Life Stage</th>
+                    <th>Age of Cat</th>
+                    <th>Human Equivalent Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="6">
+                        <img src="./image/kitten.jpeg" alt="">
+                    </td>
+                    <td>0-1 month</td>
+                    <td>0-1 years</td>
+                </tr>
+                <tr>
+                    <td>2 month</td>
+                    <td>2 years</td>
+                </tr>
+                <tr>
+                    <td>3 month</td>
+                    <td>4 years</td>
+                </tr>
+                <tr>
+                    <td>4 month</td>
+                    <td>6 years</td>
+                </tr>
+                <tr>
+                    <td>5 month</td>
+                    <td>8 years</td>
+                </tr>
+                <tr>
+                    <td>6 month</td>
+                    <td>10 years</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="./image/junior.jpeg" alt="">
+                    </td>
+                    <td>7 month</td>
+                    <td>12 years</td>
+                </tr>
+                <tr>
+                    <td>12 month</td>
+                    <td>15 years</td>
+                </tr>
+                <tr>
+                    <td>18 month</td>
+                    <td>21 years</td>
+                </tr>
+                <tr>
+                    <td>2 years</td>
+                    <td>24 years</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="./image/adult.jpeg" alt="">
+                    </td>
+                    <td>3 years</td>
+                    <td>28 years</td>
+                </tr>
+                <tr>
+                    <td>4 years</td>
+                    <td>32 years</td>
+                </tr>
+                <tr>
+                    <td>5 years</td>
+                    <td>36 years</td>
+                </tr>
+                <tr>
+                    <td>6 years</td>
+                    <td>40 years</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="./image/mature.jpeg" alt="">
+                    </td>
+                    <td>7 years</td>
+                    <td>44 years</td>
+                </tr>
+                <tr>
+                    <td>8 years</td>
+                    <td>48 years</td>
+                </tr>
+                <tr>
+                    <td>9 years</td>
+                    <td>52 years</td>
+                </tr>
+                <tr>
+                    <td>10 years</td>
+                    <td>56 years</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="./image/senior.jpeg" alt="">
+                    </td>
+                    <td>11 years</td>
+                    <td>60 years</td>
+                </tr>
+                <tr>
+                    <td>12 years</td>
+                    <td>64 years</td>
+                </tr>
+                <tr>
+                    <td>13 years</td>
+                    <td>68 years</td>
+                </tr>
+                <tr>
+                    <td>14 years</td>
+                    <td>72 years</td>
+                </tr>
+                <tr>
+                    <td rowspan="11">
+                        <img src="./image/super_senior.jpeg" alt="">
+                    </td>
+                    <td>15 years</td>
+                    <td>76 years</td>
+                </tr>
+                <tr>
+                    <td>16 years</td>
+                    <td>80 years</td>
+                </tr>
+                <tr>
+                    <td>17 years</td>
+                    <td>84 years</td>
+                </tr>
+                <tr>
+                    <td>18 years</td>
+                    <td>88 years</td>
+                </tr>
+                <tr>
+                    <td>19 years</td>
+                    <td>92 years</td>
+                </tr>
+                <tr>
+                    <td>20 years</td>
+                    <td>96 years</td>
+                </tr>
+                <tr>
+                    <td>21 years</td>
+                    <td>100 years</td>
+                </tr>
+                <tr>
+                    <td>22 years</td>
+                    <td>104 years</td>
+                </tr>
+                <tr>
+                    <td>23 years</td>
+                    <td>108 years</td>
+                </tr>
+                <tr>
+                    <td>24 years</td>
+                    <td>112 years</td>
+                </tr>
+                <tr>
+                    <td>25 years</td>
+                    <td>116 years</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>
